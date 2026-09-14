@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Registratin page</title>
+    <link rel="stylesheet" href="expense.css">
+</head>
+<body>
+
+    <div class="auth-container">
+
+        <!--div for Registration of new user -->
+        <div id="register-section">
+            <h2> 👤Create Account</h2>
+            <input type="text" id="reg-username" placeholder="Choose your username">
+
+            <input type="password" id="reg-password" placeholder="choose your password">
+
+            <input type="password" id="reg-confirm" placeholder="confirm your password">
+
+            <button id="register-btn">Register</button>
+
+            <p> Already have an account?
+                <span id="go-login">Login Here</span>
+            </p>
+
+        </div>
+
+
+        <!--div for the checking the authentication of the user -->
+        <div id="login-section">
+            <h2> 👋Welcome</h2>
+            <input type="text" id="login-username" placeholder="Enter username">
+
+            <input type="password" id="login-password" placeholder="Enter password">
+
+            <button id="login-btn">Login</button>
+
+            <p>Don't have an account?
+                <span id="go-register">Register here</span>
+            </p>
+
+            
+        </div>
+
+<p id="auth-error">
+
+            </p>
+    </div>
+    
+
+    <script src="expense.js"></script>
+</body>
+</html>

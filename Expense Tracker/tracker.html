@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracker page</title>
+    <link rel="stylesheet" href="expense.css">
+</head>
+<body>
+    
+    <div class="tracker-container">
+
+        <!-- header section of the page -->
+        <div id="header">
+            <h1>💰Expense Tracker</h1>
+            <!-- <p id="welcome-msg"><bold>Welcome ,</bold> </p> -->
+            <p id="welcome-msg">Welcome </p>
+        
+            <button id="logout-btn">Logout</button>
+        </div>
+
+
+        <!-- display the balance of the user -->
+        <div id="balance-section">
+            <h2>Total Balance</h2>
+            <h3 id="balance-amount"></h3>
+        </div>
+
+
+        <!-- Add the expenses of the user -->
+        <div id="add-expense">
+            <h3>Add Transation</h3>
+            <input type="text" id="expense-name" placeholder="Transaction Name">
+            <input type="number" id="expense-amount" placeholder="Amount used for buying things">
+            <button id="add-btn">Add</button>
+        </div>
+
+
+        <!-- List of the things on which user spend money -->
+         <div id="expense-list-section">
+            <h3>Transation</h3>
+            <ul id="expense-list"></ul>
+         </div>
+
+
+
+
+    </div>
+
+
+
+    <script src="expense.js"></script>
+</body>
+</html>
